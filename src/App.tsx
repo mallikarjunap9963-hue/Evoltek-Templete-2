@@ -412,9 +412,9 @@ export default function App() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {/* Card 01 */}
-          <div className="bg-white rounded-[32px] overflow-hidden border border-slate-200/80 shadow-lg shadow-slate-200/40 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Corner Curve */}
-            <div className="p-8 sm:p-9 bg-white space-y-6 rounded-tr-[55px] flex-1">
+          <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+            {/* Top White Box with Top-Right Diagonal Curve Cut */}
+            <div className="p-8 sm:p-9 bg-white space-y-6 rounded-t-[32px] rounded-tr-[55px] flex-1">
               <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-transform duration-300">
                 <img
                   src="/icon_3d_shared_investment.jpg"
@@ -427,7 +427,7 @@ export default function App() {
               </h3>
             </div>
             {/* Bottom Mint Tint Box */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] border-t border-emerald-100/60 rounded-b-[32px]">
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[32px]">
               <p className="text-sm font-semibold text-slate-700 leading-relaxed">
                 Invest only half the project cost while Evoltek contributes the other half.
               </p>
@@ -435,9 +435,9 @@ export default function App() {
           </div>
 
           {/* Card 02 */}
-          <div className="bg-white rounded-[32px] overflow-hidden border border-slate-200/80 shadow-lg shadow-slate-200/40 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Corner Curve */}
-            <div className="p-8 sm:p-9 bg-white space-y-6 rounded-tr-[55px] flex-1">
+          <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+            {/* Top White Box with Top-Right Diagonal Curve Cut */}
+            <div className="p-8 sm:p-9 bg-white space-y-6 rounded-t-[32px] rounded-tr-[55px] flex-1">
               <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-transform duration-300">
                 <img
                   src="/icon_3d_hassle_free.jpg"
@@ -450,7 +450,7 @@ export default function App() {
               </h3>
             </div>
             {/* Bottom Mint Tint Box */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] border-t border-emerald-100/60 rounded-b-[32px]">
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[32px]">
               <p className="text-sm font-semibold text-slate-700 leading-relaxed">
                 Evoltek handles setup, operations and station maintenance.
               </p>
@@ -458,9 +458,9 @@ export default function App() {
           </div>
 
           {/* Card 03 */}
-          <div className="bg-white rounded-[32px] overflow-hidden border border-slate-200/80 shadow-lg shadow-slate-200/40 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Corner Curve */}
-            <div className="p-8 sm:p-9 bg-white space-y-6 rounded-tr-[55px] flex-1">
+          <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+            {/* Top White Box with Top-Right Diagonal Curve Cut */}
+            <div className="p-8 sm:p-9 bg-white space-y-6 rounded-t-[32px] rounded-tr-[55px] flex-1">
               <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-transform duration-300">
                 <img
                   src="/icon_3d_flexible_returns.jpg"
@@ -473,7 +473,7 @@ export default function App() {
               </h3>
             </div>
             {/* Bottom Mint Tint Box */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] border-t border-emerald-100/60 rounded-b-[32px]">
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[32px]">
               <p className="text-sm font-semibold text-slate-700 leading-relaxed">
                 Choose between percentage-based or fixed-return options.
               </p>
@@ -481,9 +481,9 @@ export default function App() {
           </div>
 
           {/* Card 04 */}
-          <div className="bg-white rounded-[32px] overflow-hidden border border-slate-200/80 shadow-lg shadow-slate-200/40 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Corner Curve */}
-            <div className="p-8 sm:p-9 bg-white space-y-6 rounded-tr-[55px] flex-1">
+          <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+            {/* Top White Box with Top-Right Diagonal Curve Cut */}
+            <div className="p-8 sm:p-9 bg-white space-y-6 rounded-t-[32px] rounded-tr-[55px] flex-1">
               <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-transform duration-300">
                 <img
                   src="/icon_3d_long_term.jpg"
@@ -496,7 +496,7 @@ export default function App() {
               </h3>
             </div>
             {/* Bottom Mint Tint Box */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] border-t border-emerald-100/60 rounded-b-[32px]">
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[32px]">
               <p className="text-sm font-semibold text-slate-700 leading-relaxed">
                 5 or 10-year agreement options with renewal availability.
               </p>
@@ -504,9 +504,9 @@ export default function App() {
           </div>
 
           {/* Card 05 */}
-          <div className="bg-white rounded-[32px] overflow-hidden border border-slate-200/80 shadow-lg shadow-slate-200/40 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Corner Curve */}
-            <div className="p-8 sm:p-9 bg-white space-y-6 rounded-tr-[55px] flex-1">
+          <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+            {/* Top White Box with Top-Right Diagonal Curve Cut */}
+            <div className="p-8 sm:p-9 bg-white space-y-6 rounded-t-[32px] rounded-tr-[55px] flex-1">
               <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-transform duration-300">
                 <img
                   src="/icon_3d_digital_transparency.jpg"
@@ -519,7 +519,7 @@ export default function App() {
               </h3>
             </div>
             {/* Bottom Mint Tint Box */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] border-t border-emerald-100/60 rounded-b-[32px]">
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[32px]">
               <p className="text-sm font-semibold text-slate-700 leading-relaxed">
                 Monitor station performance through the Evoltek mobile app.
               </p>
@@ -527,9 +527,9 @@ export default function App() {
           </div>
 
           {/* Card 06 */}
-          <div className="bg-white rounded-[32px] overflow-hidden border border-slate-200/80 shadow-lg shadow-slate-200/40 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Corner Curve */}
-            <div className="p-8 sm:p-9 bg-white space-y-6 rounded-tr-[55px] flex-1">
+          <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between group">
+            {/* Top White Box with Top-Right Diagonal Curve Cut */}
+            <div className="p-8 sm:p-9 bg-white space-y-6 rounded-t-[32px] rounded-tr-[55px] flex-1">
               <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-transform duration-300">
                 <img
                   src="/icon_3d_scalable_network.jpg"
@@ -542,7 +542,7 @@ export default function App() {
               </h3>
             </div>
             {/* Bottom Mint Tint Box */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] border-t border-emerald-100/60 rounded-b-[32px]">
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[32px]">
               <p className="text-sm font-semibold text-slate-700 leading-relaxed">
                 Build a growing EV charging network across strategic locations.
               </p>
