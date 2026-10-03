@@ -412,9 +412,15 @@ export default function App() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {/* Card 01 */}
-          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group relative">
+            {/* Top-Right Corner Background Layer for Hover Accent */}
+            <div className="absolute top-0 right-0 w-16 h-16 bg-[#eaf6e5] group-hover:bg-[#42c82b] transition-colors duration-300 z-0" />
+
             {/* Top White Box with Top-Right Diagonal Cut */}
-            <div className="p-8 sm:p-9 bg-white flex-1 relative [clip-path:polygon(0_0,calc(100%-36px)_0,100%_36px,100%_100%,0_100%)]">
+            <div
+              className="p-8 sm:p-9 bg-white flex-1 relative z-10"
+              style={{ clipPath: 'polygon(0 0, calc(100% - 36px) 0, 100% 36px, 100% 100%, 0 100%)' }}
+            >
               <div className="space-y-6">
                 <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
                   <img
@@ -430,7 +436,7 @@ export default function App() {
             </div>
 
             {/* Bottom Box (Top-to-Bottom Green Hover Fill & White Text) */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden border-t border-emerald-200/40">
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden z-10 border-t border-emerald-200/40">
               {/* Top-to-Bottom Vibrant Green Hover Fill Layer */}
               <div className="absolute inset-0 bg-[#42c82b] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
 
@@ -441,9 +447,15 @@ export default function App() {
           </div>
 
           {/* Card 02 */}
-          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group relative">
+            {/* Top-Right Corner Background Layer for Hover Accent */}
+            <div className="absolute top-0 right-0 w-16 h-16 bg-[#eaf6e5] group-hover:bg-[#42c82b] transition-colors duration-300 z-0" />
+
             {/* Top White Box with Top-Right Diagonal Cut */}
-            <div className="p-8 sm:p-9 bg-white flex-1 relative [clip-path:polygon(0_0,calc(100%-36px)_0,100%_36px,100%_100%,0_100%)]">
+            <div
+              className="p-8 sm:p-9 bg-white flex-1 relative z-10"
+              style={{ clipPath: 'polygon(0 0, calc(100% - 36px) 0, 100% 36px, 100% 100%, 0 100%)' }}
+            >
               <div className="space-y-6">
                 <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
                   <img
@@ -459,7 +471,7 @@ export default function App() {
             </div>
 
             {/* Bottom Box (Top-to-Bottom Green Hover Fill & White Text) */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden border-t border-emerald-200/40">
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden z-10 border-t border-emerald-200/40">
               {/* Top-to-Bottom Vibrant Green Hover Fill Layer */}
               <div className="absolute inset-0 bg-[#42c82b] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
 
@@ -470,9 +482,15 @@ export default function App() {
           </div>
 
           {/* Card 03 */}
-          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group relative">
+            {/* Top-Right Corner Background Layer for Hover Accent */}
+            <div className="absolute top-0 right-0 w-16 h-16 bg-[#eaf6e5] group-hover:bg-[#42c82b] transition-colors duration-300 z-0" />
+
             {/* Top White Box with Top-Right Diagonal Cut */}
-            <div className="p-8 sm:p-9 bg-white flex-1 relative [clip-path:polygon(0_0,calc(100%-36px)_0,100%_36px,100%_100%,0_100%)]">
+            <div
+              className="p-8 sm:p-9 bg-white flex-1 relative z-10"
+              style={{ clipPath: 'polygon(0 0, calc(100% - 36px) 0, 100% 36px, 100% 100%, 0 100%)' }}
+            >
               <div className="space-y-6">
                 <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
                   <img
@@ -488,7 +506,7 @@ export default function App() {
             </div>
 
             {/* Bottom Box (Top-to-Bottom Green Hover Fill & White Text) */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden border-t border-emerald-200/40">
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden z-10 border-t border-emerald-200/40">
               {/* Top-to-Bottom Vibrant Green Hover Fill Layer */}
               <div className="absolute inset-0 bg-[#42c82b] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
 
@@ -499,9 +517,15 @@ export default function App() {
           </div>
 
           {/* Card 04 */}
-          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group relative">
+            {/* Top-Right Corner Background Layer for Hover Accent */}
+            <div className="absolute top-0 right-0 w-16 h-16 bg-[#eaf6e5] group-hover:bg-[#42c82b] transition-colors duration-300 z-0" />
+
             {/* Top White Box with Top-Right Diagonal Cut */}
-            <div className="p-8 sm:p-9 bg-white flex-1 relative [clip-path:polygon(0_0,calc(100%-36px)_0,100%_36px,100%_100%,0_100%)]">
+            <div
+              className="p-8 sm:p-9 bg-white flex-1 relative z-10"
+              style={{ clipPath: 'polygon(0 0, calc(100% - 36px) 0, 100% 36px, 100% 100%, 0 100%)' }}
+            >
               <div className="space-y-6">
                 <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
                   <img
@@ -517,7 +541,7 @@ export default function App() {
             </div>
 
             {/* Bottom Box (Top-to-Bottom Green Hover Fill & White Text) */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden border-t border-emerald-200/40">
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden z-10 border-t border-emerald-200/40">
               {/* Top-to-Bottom Vibrant Green Hover Fill Layer */}
               <div className="absolute inset-0 bg-[#42c82b] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
 
@@ -528,9 +552,15 @@ export default function App() {
           </div>
 
           {/* Card 05 */}
-          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group relative">
+            {/* Top-Right Corner Background Layer for Hover Accent */}
+            <div className="absolute top-0 right-0 w-16 h-16 bg-[#eaf6e5] group-hover:bg-[#42c82b] transition-colors duration-300 z-0" />
+
             {/* Top White Box with Top-Right Diagonal Cut */}
-            <div className="p-8 sm:p-9 bg-white flex-1 relative [clip-path:polygon(0_0,calc(100%-36px)_0,100%_36px,100%_100%,0_100%)]">
+            <div
+              className="p-8 sm:p-9 bg-white flex-1 relative z-10"
+              style={{ clipPath: 'polygon(0 0, calc(100% - 36px) 0, 100% 36px, 100% 100%, 0 100%)' }}
+            >
               <div className="space-y-6">
                 <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
                   <img
@@ -546,7 +576,7 @@ export default function App() {
             </div>
 
             {/* Bottom Box (Top-to-Bottom Green Hover Fill & White Text) */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden border-t border-emerald-200/40">
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden z-10 border-t border-emerald-200/40">
               {/* Top-to-Bottom Vibrant Green Hover Fill Layer */}
               <div className="absolute inset-0 bg-[#42c82b] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
 
@@ -557,9 +587,15 @@ export default function App() {
           </div>
 
           {/* Card 06 */}
-          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group relative">
+            {/* Top-Right Corner Background Layer for Hover Accent */}
+            <div className="absolute top-0 right-0 w-16 h-16 bg-[#eaf6e5] group-hover:bg-[#42c82b] transition-colors duration-300 z-0" />
+
             {/* Top White Box with Top-Right Diagonal Cut */}
-            <div className="p-8 sm:p-9 bg-white flex-1 relative [clip-path:polygon(0_0,calc(100%-36px)_0,100%_36px,100%_100%,0_100%)]">
+            <div
+              className="p-8 sm:p-9 bg-white flex-1 relative z-10"
+              style={{ clipPath: 'polygon(0 0, calc(100% - 36px) 0, 100% 36px, 100% 100%, 0 100%)' }}
+            >
               <div className="space-y-6">
                 <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
                   <img
@@ -575,7 +611,7 @@ export default function App() {
             </div>
 
             {/* Bottom Box (Top-to-Bottom Green Hover Fill & White Text) */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden border-t border-emerald-200/40">
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden z-10 border-t border-emerald-200/40">
               {/* Top-to-Bottom Vibrant Green Hover Fill Layer */}
               <div className="absolute inset-0 bg-[#42c82b] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
 
