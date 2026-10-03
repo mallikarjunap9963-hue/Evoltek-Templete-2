@@ -422,7 +422,7 @@ export default function App() {
               style={{ clipPath: 'polygon(0 0, calc(100% - 36px) 0, 100% 36px, 100% 100%, 0 100%)' }}
             >
               <div className="space-y-6">
-                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
+                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:[transform:rotateY(360deg)] transition-all duration-700 ease-in-out">
                   <img
                     src="/icon_3d_shared_investment.jpg"
                     alt="Shared Investment"
@@ -457,7 +457,7 @@ export default function App() {
               style={{ clipPath: 'polygon(0 0, calc(100% - 36px) 0, 100% 36px, 100% 100%, 0 100%)' }}
             >
               <div className="space-y-6">
-                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
+                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:[transform:rotateY(360deg)] transition-all duration-700 ease-in-out">
                   <img
                     src="/icon_3d_hassle_free.jpg"
                     alt="Hassle-Free Operations"
@@ -492,7 +492,7 @@ export default function App() {
               style={{ clipPath: 'polygon(0 0, calc(100% - 36px) 0, 100% 36px, 100% 100%, 0 100%)' }}
             >
               <div className="space-y-6">
-                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
+                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:[transform:rotateY(360deg)] transition-all duration-700 ease-in-out">
                   <img
                     src="/icon_3d_flexible_returns.jpg"
                     alt="Flexible Returns"
@@ -527,7 +527,7 @@ export default function App() {
               style={{ clipPath: 'polygon(0 0, calc(100% - 36px) 0, 100% 36px, 100% 100%, 0 100%)' }}
             >
               <div className="space-y-6">
-                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
+                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:[transform:rotateY(360deg)] transition-all duration-700 ease-in-out">
                   <img
                     src="/icon_3d_long_term.jpg"
                     alt="Long-Term Agreement"
@@ -562,7 +562,7 @@ export default function App() {
               style={{ clipPath: 'polygon(0 0, calc(100% - 36px) 0, 100% 36px, 100% 100%, 0 100%)' }}
             >
               <div className="space-y-6">
-                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
+                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:[transform:rotateY(360deg)] transition-all duration-700 ease-in-out">
                   <img
                     src="/icon_3d_digital_transparency.jpg"
                     alt="Digital Transparency"
@@ -597,7 +597,7 @@ export default function App() {
               style={{ clipPath: 'polygon(0 0, calc(100% - 36px) 0, 100% 36px, 100% 100%, 0 100%)' }}
             >
               <div className="space-y-6">
-                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
+                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:[transform:rotateY(360deg)] transition-all duration-700 ease-in-out">
                   <img
                     src="/icon_3d_scalable_network.jpg"
                     alt="Scalable Network"
