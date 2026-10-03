@@ -413,10 +413,10 @@ export default function App() {
 
           {/* Card 01 */}
           <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Cut & Top-to-Bottom Hover Fill */}
+            {/* Top White Box with Top-Right Cut & Bottom-to-Top Hover Fill */}
             <div className="p-8 sm:p-9 bg-white rounded-t-[32px] rounded-tr-[55px] flex-1 relative overflow-hidden">
-              {/* Top-to-Bottom Green Hover Fill Layer */}
-              <div className="absolute inset-0 bg-[#eaf6e5] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
+              {/* Bottom-to-Top Green Hover Fill Layer from Below Card */}
+              <div className="absolute inset-0 bg-[#eaf6e5] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
 
               <div className="relative z-10 space-y-6">
                 <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:bg-white transition-all duration-300">
@@ -442,10 +442,10 @@ export default function App() {
 
           {/* Card 02 */}
           <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Cut & Top-to-Bottom Hover Fill */}
+            {/* Top White Box with Top-Right Cut & Bottom-to-Top Hover Fill */}
             <div className="p-8 sm:p-9 bg-white rounded-t-[32px] rounded-tr-[55px] flex-1 relative overflow-hidden">
-              {/* Top-to-Bottom Green Hover Fill Layer */}
-              <div className="absolute inset-0 bg-[#eaf6e5] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
+              {/* Bottom-to-Top Green Hover Fill Layer from Below Card */}
+              <div className="absolute inset-0 bg-[#eaf6e5] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
 
               <div className="relative z-10 space-y-6">
                 <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:bg-white transition-all duration-300">
@@ -471,10 +471,10 @@ export default function App() {
 
           {/* Card 03 */}
           <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Cut & Top-to-Bottom Hover Fill */}
+            {/* Top White Box with Top-Right Cut & Bottom-to-Top Hover Fill */}
             <div className="p-8 sm:p-9 bg-white rounded-t-[32px] rounded-tr-[55px] flex-1 relative overflow-hidden">
-              {/* Top-to-Bottom Green Hover Fill Layer */}
-              <div className="absolute inset-0 bg-[#eaf6e5] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
+              {/* Bottom-to-Top Green Hover Fill Layer from Below Card */}
+              <div className="absolute inset-0 bg-[#eaf6e5] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
 
               <div className="relative z-10 space-y-6">
                 <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:bg-white transition-all duration-300">
@@ -500,10 +500,10 @@ export default function App() {
 
           {/* Card 04 */}
           <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Cut & Top-to-Bottom Hover Fill */}
+            {/* Top White Box with Top-Right Cut & Bottom-to-Top Hover Fill */}
             <div className="p-8 sm:p-9 bg-white rounded-t-[32px] rounded-tr-[55px] flex-1 relative overflow-hidden">
-              {/* Top-to-Bottom Green Hover Fill Layer */}
-              <div className="absolute inset-0 bg-[#eaf6e5] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
+              {/* Bottom-to-Top Green Hover Fill Layer from Below Card */}
+              <div className="absolute inset-0 bg-[#eaf6e5] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
 
               <div className="relative z-10 space-y-6">
                 <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:bg-white transition-all duration-300">
@@ -529,10 +529,10 @@ export default function App() {
 
           {/* Card 05 */}
           <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Cut & Top-to-Bottom Hover Fill */}
+            {/* Top White Box with Top-Right Cut & Bottom-to-Top Hover Fill */}
             <div className="p-8 sm:p-9 bg-white rounded-t-[32px] rounded-tr-[55px] flex-1 relative overflow-hidden">
-              {/* Top-to-Bottom Green Hover Fill Layer */}
-              <div className="absolute inset-0 bg-[#eaf6e5] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
+              {/* Bottom-to-Top Green Hover Fill Layer from Below Card */}
+              <div className="absolute inset-0 bg-[#eaf6e5] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
 
               <div className="relative z-10 space-y-6">
                 <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:bg-white transition-all duration-300">
@@ -558,10 +558,10 @@ export default function App() {
 
           {/* Card 06 */}
           <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Cut & Top-to-Bottom Hover Fill */}
+            {/* Top White Box with Top-Right Cut & Bottom-to-Top Hover Fill */}
             <div className="p-8 sm:p-9 bg-white rounded-t-[32px] rounded-tr-[55px] flex-1 relative overflow-hidden">
-              {/* Top-to-Bottom Green Hover Fill Layer */}
-              <div className="absolute inset-0 bg-[#eaf6e5] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
+              {/* Bottom-to-Top Green Hover Fill Layer from Below Card */}
+              <div className="absolute inset-0 bg-[#eaf6e5] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
 
               <div className="relative z-10 space-y-6">
                 <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:bg-white transition-all duration-300">
