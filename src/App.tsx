@@ -412,14 +412,11 @@ export default function App() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {/* Card 01 */}
-          <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Cut & Bottom-to-Top Hover Fill */}
-            <div className="p-8 sm:p-9 bg-white rounded-t-[32px] rounded-tr-[55px] flex-1 relative overflow-hidden">
-              {/* Bottom-to-Top Green Hover Fill Layer from Below Card */}
-              <div className="absolute inset-0 bg-[#eaf6e5] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
-
-              <div className="relative z-10 space-y-6">
-                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:bg-white transition-all duration-300">
+          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+            {/* Top White Box with Top-Right Diagonal Cut */}
+            <div className="p-8 sm:p-9 bg-white flex-1 relative [clip-path:polygon(0_0,calc(100%-36px)_0,100%_36px,100%_100%,0_100%)]">
+              <div className="space-y-6">
+                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
                   <img
                     src="/icon_3d_shared_investment.jpg"
                     alt="Shared Investment"
@@ -432,23 +429,23 @@ export default function App() {
               </div>
             </div>
 
-            {/* Bottom Mint Tint Box */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[32px] relative z-10 border-t border-emerald-200/50">
-              <p className="text-sm font-semibold text-slate-700 leading-relaxed">
+            {/* Bottom Box (Top-to-Bottom Green Hover Fill & White Text) */}
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden border-t border-emerald-200/40">
+              {/* Top-to-Bottom Vibrant Green Hover Fill Layer */}
+              <div className="absolute inset-0 bg-[#42c82b] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
+
+              <p className="relative z-10 text-sm font-semibold text-slate-700 group-hover:text-white transition-colors duration-300 leading-relaxed">
                 Invest only half the project cost while Evoltek contributes the other half.
               </p>
             </div>
           </div>
 
           {/* Card 02 */}
-          <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Cut & Bottom-to-Top Hover Fill */}
-            <div className="p-8 sm:p-9 bg-white rounded-t-[32px] rounded-tr-[55px] flex-1 relative overflow-hidden">
-              {/* Bottom-to-Top Green Hover Fill Layer from Below Card */}
-              <div className="absolute inset-0 bg-[#eaf6e5] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
-
-              <div className="relative z-10 space-y-6">
-                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:bg-white transition-all duration-300">
+          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+            {/* Top White Box with Top-Right Diagonal Cut */}
+            <div className="p-8 sm:p-9 bg-white flex-1 relative [clip-path:polygon(0_0,calc(100%-36px)_0,100%_36px,100%_100%,0_100%)]">
+              <div className="space-y-6">
+                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
                   <img
                     src="/icon_3d_hassle_free.jpg"
                     alt="Hassle-Free Operations"
@@ -461,23 +458,23 @@ export default function App() {
               </div>
             </div>
 
-            {/* Bottom Mint Tint Box */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[32px] relative z-10 border-t border-emerald-200/50">
-              <p className="text-sm font-semibold text-slate-700 leading-relaxed">
+            {/* Bottom Box (Top-to-Bottom Green Hover Fill & White Text) */}
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden border-t border-emerald-200/40">
+              {/* Top-to-Bottom Vibrant Green Hover Fill Layer */}
+              <div className="absolute inset-0 bg-[#42c82b] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
+
+              <p className="relative z-10 text-sm font-semibold text-slate-700 group-hover:text-white transition-colors duration-300 leading-relaxed">
                 Evoltek handles setup, operations and station maintenance.
               </p>
             </div>
           </div>
 
           {/* Card 03 */}
-          <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Cut & Bottom-to-Top Hover Fill */}
-            <div className="p-8 sm:p-9 bg-white rounded-t-[32px] rounded-tr-[55px] flex-1 relative overflow-hidden">
-              {/* Bottom-to-Top Green Hover Fill Layer from Below Card */}
-              <div className="absolute inset-0 bg-[#eaf6e5] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
-
-              <div className="relative z-10 space-y-6">
-                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:bg-white transition-all duration-300">
+          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+            {/* Top White Box with Top-Right Diagonal Cut */}
+            <div className="p-8 sm:p-9 bg-white flex-1 relative [clip-path:polygon(0_0,calc(100%-36px)_0,100%_36px,100%_100%,0_100%)]">
+              <div className="space-y-6">
+                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
                   <img
                     src="/icon_3d_flexible_returns.jpg"
                     alt="Flexible Returns"
@@ -490,23 +487,23 @@ export default function App() {
               </div>
             </div>
 
-            {/* Bottom Mint Tint Box */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[32px] relative z-10 border-t border-emerald-200/50">
-              <p className="text-sm font-semibold text-slate-700 leading-relaxed">
+            {/* Bottom Box (Top-to-Bottom Green Hover Fill & White Text) */}
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden border-t border-emerald-200/40">
+              {/* Top-to-Bottom Vibrant Green Hover Fill Layer */}
+              <div className="absolute inset-0 bg-[#42c82b] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
+
+              <p className="relative z-10 text-sm font-semibold text-slate-700 group-hover:text-white transition-colors duration-300 leading-relaxed">
                 Choose between percentage-based or fixed-return options.
               </p>
             </div>
           </div>
 
           {/* Card 04 */}
-          <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Cut & Bottom-to-Top Hover Fill */}
-            <div className="p-8 sm:p-9 bg-white rounded-t-[32px] rounded-tr-[55px] flex-1 relative overflow-hidden">
-              {/* Bottom-to-Top Green Hover Fill Layer from Below Card */}
-              <div className="absolute inset-0 bg-[#eaf6e5] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
-
-              <div className="relative z-10 space-y-6">
-                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:bg-white transition-all duration-300">
+          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+            {/* Top White Box with Top-Right Diagonal Cut */}
+            <div className="p-8 sm:p-9 bg-white flex-1 relative [clip-path:polygon(0_0,calc(100%-36px)_0,100%_36px,100%_100%,0_100%)]">
+              <div className="space-y-6">
+                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
                   <img
                     src="/icon_3d_long_term.jpg"
                     alt="Long-Term Agreement"
@@ -519,23 +516,23 @@ export default function App() {
               </div>
             </div>
 
-            {/* Bottom Mint Tint Box */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[32px] relative z-10 border-t border-emerald-200/50">
-              <p className="text-sm font-semibold text-slate-700 leading-relaxed">
+            {/* Bottom Box (Top-to-Bottom Green Hover Fill & White Text) */}
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden border-t border-emerald-200/40">
+              {/* Top-to-Bottom Vibrant Green Hover Fill Layer */}
+              <div className="absolute inset-0 bg-[#42c82b] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
+
+              <p className="relative z-10 text-sm font-semibold text-slate-700 group-hover:text-white transition-colors duration-300 leading-relaxed">
                 5 or 10-year agreement options with renewal availability.
               </p>
             </div>
           </div>
 
           {/* Card 05 */}
-          <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Cut & Bottom-to-Top Hover Fill */}
-            <div className="p-8 sm:p-9 bg-white rounded-t-[32px] rounded-tr-[55px] flex-1 relative overflow-hidden">
-              {/* Bottom-to-Top Green Hover Fill Layer from Below Card */}
-              <div className="absolute inset-0 bg-[#eaf6e5] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
-
-              <div className="relative z-10 space-y-6">
-                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:bg-white transition-all duration-300">
+          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+            {/* Top White Box with Top-Right Diagonal Cut */}
+            <div className="p-8 sm:p-9 bg-white flex-1 relative [clip-path:polygon(0_0,calc(100%-36px)_0,100%_36px,100%_100%,0_100%)]">
+              <div className="space-y-6">
+                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
                   <img
                     src="/icon_3d_digital_transparency.jpg"
                     alt="Digital Transparency"
@@ -548,23 +545,23 @@ export default function App() {
               </div>
             </div>
 
-            {/* Bottom Mint Tint Box */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[32px] relative z-10 border-t border-emerald-200/50">
-              <p className="text-sm font-semibold text-slate-700 leading-relaxed">
+            {/* Bottom Box (Top-to-Bottom Green Hover Fill & White Text) */}
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden border-t border-emerald-200/40">
+              {/* Top-to-Bottom Vibrant Green Hover Fill Layer */}
+              <div className="absolute inset-0 bg-[#42c82b] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
+
+              <p className="relative z-10 text-sm font-semibold text-slate-700 group-hover:text-white transition-colors duration-300 leading-relaxed">
                 Monitor station performance through the Evoltek mobile app.
               </p>
             </div>
           </div>
 
           {/* Card 06 */}
-          <div className="bg-[#eaf6e5] rounded-[32px] border border-emerald-200/70 shadow-lg shadow-emerald-950/5 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between group">
-            {/* Top White Box with Top-Right Cut & Bottom-to-Top Hover Fill */}
-            <div className="p-8 sm:p-9 bg-white rounded-t-[32px] rounded-tr-[55px] flex-1 relative overflow-hidden">
-              {/* Bottom-to-Top Green Hover Fill Layer from Below Card */}
-              <div className="absolute inset-0 bg-[#eaf6e5] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
-
-              <div className="relative z-10 space-y-6">
-                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 group-hover:bg-white transition-all duration-300">
+          <div className="bg-[#eaf6e5] group-hover:bg-[#42c82b] rounded-[28px] border border-emerald-200/70 hover:border-[#42c82b] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between overflow-hidden group">
+            {/* Top White Box with Top-Right Diagonal Cut */}
+            <div className="p-8 sm:p-9 bg-white flex-1 relative [clip-path:polygon(0_0,calc(100%-36px)_0,100%_36px,100%_100%,0_100%)]">
+              <div className="space-y-6">
+                <div className="w-16 h-16 rounded-full bg-[#e2f7df] flex items-center justify-center p-3 shadow-sm group-hover:scale-110 transition-all duration-300">
                   <img
                     src="/icon_3d_scalable_network.jpg"
                     alt="Scalable Network"
@@ -577,9 +574,12 @@ export default function App() {
               </div>
             </div>
 
-            {/* Bottom Mint Tint Box */}
-            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[32px] relative z-10 border-t border-emerald-200/50">
-              <p className="text-sm font-semibold text-slate-700 leading-relaxed">
+            {/* Bottom Box (Top-to-Bottom Green Hover Fill & White Text) */}
+            <div className="p-8 sm:p-9 bg-[#eaf6e5] rounded-b-[28px] relative overflow-hidden border-t border-emerald-200/40">
+              {/* Top-to-Bottom Vibrant Green Hover Fill Layer */}
+              <div className="absolute inset-0 bg-[#42c82b] -translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out pointer-events-none" />
+
+              <p className="relative z-10 text-sm font-semibold text-slate-700 group-hover:text-white transition-colors duration-300 leading-relaxed">
                 Build a growing EV charging network across strategic locations.
               </p>
             </div>
